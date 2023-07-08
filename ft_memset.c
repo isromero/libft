@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: isma <isma@student.42.fr>                  +#+  +:+       +#+        */
+/*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 16:26:19 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/23 19:58:57 by isma             ###   ########.fr       */
+/*   Updated: 2023/07/08 17:14:51 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,11 +26,3 @@ void	*ft_memset(void *b, int c, size_t n)
 	}
 	return (b);
 }
-
-/*int	main()
-{
-	char	str[] = "Hola Mundo";
-	ft_memset(str, '-', 5);
-	puts(str);
-	return 0;
-}*/

@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 20:00:19 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/25 12:27:51 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:15:29 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,14 +39,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-
-/*int main(void) 
-{
-	char *searchingFor = "la";
-	char *in = "la da\ndoo a da\nnow here comes the stack\nok there it was.\n";
-
-    printf("found: %s\n", ft_strnstr(in, searchingFor, 5) ? "yes" : "no");
-    printf("found: %s\n", ft_strnstr(in, searchingFor, 5) ? "yes" : "no");
-    printf("found: %s\n", ft_strnstr(in, searchingFor, 5) ? "yes" : "no");
-    return 0;
-}*/

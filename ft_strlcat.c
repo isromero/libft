@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/13 17:55:28 by isromero          #+#    #+#             */
-/*   Updated: 2022/10/01 15:44:16 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:15:17 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,12 +32,3 @@ size_t	ft_strlcat(char *dst, char *src, size_t dstsize)
 	dst[i] = '\0';
 	return (ft_strlen(dst) + ft_strlen(&src[j]));
 }
-/*int main(void)
-{
-	char dest[50] = "hola";
-	char src[50] = "buenas";
-    char dest1[50] = "hola";
-	char src1[] = "buenas";
-	printf( "%zu\n", ft_strlcat(dest, src, 6));
-    printf( "%lu\n", strlcat(dest1, src1, 6));
-}*/

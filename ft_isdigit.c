@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 14:08:54 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/22 15:40:09 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:14:16 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
-
-/*int	main(void)
-{
-	printf("%d", ft_isdigit('b'));
-}*/

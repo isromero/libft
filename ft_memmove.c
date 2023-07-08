@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 20:12:07 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/22 17:50:57 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:14:45 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,24 +36,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
-/*int main ()
-{
-	char str1[] = "Geezz";
-	char str2[] = "Qui";
-
-	puts("str1 before memcpy ");
-	puts(str1);
-
-	Copies contents of str2 to str1
-	memmove (str1, str2, 2);
-
-	puts("\nstr1 after memcpy ");
-	puts(str1);
-
-	ft_memmove (str1, str2, 2);
-
-	puts("\nstr1 after memcpy ");
-	puts(str1);
-	return 0;
-}*/

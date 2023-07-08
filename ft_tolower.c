@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 15:26:20 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/19 18:31:30 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:15:40 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ int	ft_tolower(int c)
 		c = c + 32;
 	return (c);
 }
-
-/*int	main(void)
-{
-	char	c = 'A';
-	printf("%d", ft_tolower(c));
-}*/

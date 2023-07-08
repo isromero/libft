@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 17:58:47 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/30 16:14:06 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:15:31 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (p);
 }
-
-/*int main () {
-   const char str[] = "Hala Mundo";
-   const char ch = 'a';
-   char *ret;
-
-   ret = ft_strrchr(str, ch);
-
-   printf("String after |%c| is - |%s|\n", ch, ret);
-   
-   return(0);
-}*/

@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/13 17:55:53 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/26 15:17:15 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:15:25 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,12 +26,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-
-/*int main(void)
-{
-	char dest[20] = "1234b";
-	char src[20] = "1234a";
-    
-	printf( "%d\n", ft_strncmp(dest, src, 4));
-    printf( "%d\n", strncmp(dest, src, 4));
-}*/

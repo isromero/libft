@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 14:08:54 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/19 18:22:20 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:14:09 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-/*int	main(void)
-{
-	char	c = 'b';
-	printf("%d", ft_isalpha(c));
-}*/

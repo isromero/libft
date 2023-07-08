@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 14:41:17 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/19 18:31:32 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:15:42 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,3 @@ int	ft_toupper(int c)
 		c = c - 32;
 	return (c);
 }
-
-/*int	main(void)
-{
-	char	c = 'a';
-	printf("%d", ft_toupper(c));
-}*/

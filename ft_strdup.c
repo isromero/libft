@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 16:53:16 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/29 12:54:20 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:15:09 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,15 +30,3 @@ char	*ft_strdup(const char *s1)
 	}
 	return (p);
 }
-
-/*int main()
-{
-    char source[] = "GeeksForGeeks";
- 
-    // A copy of source is created dynamically
-    // and pointer to copy is returned.
-    char* target = strdup(source);
- 
-    printf("%s", target);
-    return 0;
-}*/

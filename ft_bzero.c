@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/19 18:16:40 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/19 18:16:55 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:14:03 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-/*int	main()
-{
-	char	str[] = "Hola Mundo";
-	ft_bzero(str, 5);
-	puts(str);
-	return 0;
-}*/

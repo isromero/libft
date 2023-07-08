@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 16:05:45 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/21 14:45:30 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:14:11 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,9 +21,3 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
-
-/*int	main(void)
-{
-	char	c = '\0';
-	printf("%d", ft_isalnum(c));
-}*/

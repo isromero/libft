@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/16 15:29:10 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/25 11:18:51 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:14:00 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,17 +40,3 @@ int	ft_atoi(const char *str)
 		return (-1);
 	return (res * n);
 }
-/*int main () {
-   int val;
-   char str[20];
-   
-   strcpy(str, "98993489");
-   val = ft_atoi(str);
-   printf("String value = %s, Int value = %d\n", str, val);
-
-   strcpy(str, "tutorialspoint.com");
-   val = ft_atoi(str);
-   printf("String value = %s, Int value = %d\n", str, val);
-
-   return(0);
-}*/

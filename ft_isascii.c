@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 16:09:28 by isromero          #+#    #+#             */
-/*   Updated: 2022/09/19 18:22:23 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 17:14:15 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,3 @@ int	ft_isascii(int c)
 		return (0);
 }
 
-/*int	main(void)
-{
-	char	c = 'a';
-	printf("%d", ft_isascii(c));
-}*/
