@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/14 16:09:28 by isromero          #+#    #+#             */
-/*   Updated: 2023/07/08 17:14:15 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 18:05:09 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,4 +19,3 @@ int	ft_isascii(int c)
 	else
 		return (0);
 }
-

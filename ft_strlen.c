@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/13 17:54:39 by isromero          #+#    #+#             */
-/*   Updated: 2023/07/08 17:15:21 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 18:04:39 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,4 +21,3 @@ size_t	ft_strlen(const char *s)
 		count++;
 	return (count);
 }
-

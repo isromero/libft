@@ -6,7 +6,7 @@
 /*   By: isromero <isromero@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/15 15:30:12 by isromero          #+#    #+#             */
-/*   Updated: 2023/07/08 17:15:04 by isromero         ###   ########.fr       */
+/*   Updated: 2023/07/08 18:03:54 by isromero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,4 +23,3 @@ char	*ft_strchr(const char *s, int c)
 		return (p);
 	return (0);
 }
-
